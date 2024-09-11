@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block; /* Makes sure each link gets its own space */
+}
+
+.navbar .nav-link {
+    color: #000000 !important; /* Dark color (black) */
+    font-weight: bold !important;
+    background-color: white;
+}
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: navy;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
