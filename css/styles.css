@@ -1,6 +1,23 @@
 body{
     background-color: white;
 }
+#main-image {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    background-color: rgb(6, 9, 39);
+    position: relative; /* Ensure it is positioned normally in the flow */
+    z-index: 500; /* Lower than the navbar */
+    margin-top: 60px; /* Adjust based on the height of your navbar */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top */
+    background-color: white; /* Add background color if needed */
+}
 
 .nav-link {
     position: relative;
