@@ -52,6 +52,44 @@ body{
     cursor: pointer;
 }
 
+.radio-check{
+    font-size: 14px;
+    font-family: Futura-Bold, sans-serif;
+    font-weight: bold;
+    color: white;
+    vertical-align: unset;
+    line-height: 58px;
+    margin: 0px 0px 0px 15px;
+    padding: 0 32px 0 52px;
+    border: none;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    /*background-position: left 1.2em top 50%;*/
+    background-color: #CC3528;
+    cursor: pointer;
+
+}
+
+.fa-solid{
+    font-weight: 900; /* For a thicker font */
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    padding-left: 2px;
+}
+
+
+.form-control  {
+    width: 450px; /* Adjust this value to reduce the width */
+    height: 55px; /* Adjust this value to change the height */
+    margin: 0px 0px 0px 15px;
+    padding: 0 32px 0 52px;
+    font-size: 14px;
+    border-radius: 999px; /* Optional: for rounded corners */
+    border: 1px solid #ccc;
+    margin-right: 20px; /* Adds space between the search box and radio buttons */
+}
+
+
 .navbar {
     position: fixed;
     top: 0;
