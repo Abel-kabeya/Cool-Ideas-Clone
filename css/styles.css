@@ -77,7 +77,6 @@ body{
     padding-left: 2px;
 }
 
-
 .form-control  {
     width: 450px; /* Adjust this value to reduce the width */
     height: 55px; /* Adjust this value to change the height */
@@ -88,7 +87,6 @@ body{
     border: 1px solid #ccc;
     margin-right: 20px; /* Adds space between the search box and radio buttons */
 }
-
 
 .navbar {
     position: fixed;
@@ -133,7 +131,6 @@ body{
     width: 70%; /* or any width you want */
     margin: 0 auto;
 }
-
 
 .why-us-div h1 {
     font-size: 55px;
