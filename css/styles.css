@@ -124,3 +124,85 @@ body{
 .nav-link:hover::after{
     opacity: 1;
 }
+
+#Why-Us {
+    background-color: rgb(91, 185, 250);
+}
+
+.why-us-div {
+    width: 70%; /* or any width you want */
+    margin: 0 auto;
+}
+
+
+.why-us-div h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+    font-family: 'Futura-Bold', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Adjust text color if needed */
+}
+
+.underline {
+    width: 100%; /* Full width underline */
+    height: 1px; /* Adjust thickness */
+    background-color: white; /* Match the color of the line */
+    margin-top: 5px; /* Adjust spacing between text and line */
+    margin-bottom: 70px; /* Add padding below the underline */
+}
+
+.underline-bottom {
+    width: 100%; /* Full width underline */
+    height: 1px; /* Adjust thickness */
+    background-color: black; /* Match the color of the line */
+    margin-top: 5px; /* Adjust spacing between text and line */
+    margin-bottom: 70px; /* Add padding below the underline */
+}
+
+.card {
+    width: 100%; /* Make sure the cards use the full width of their container */
+    min-height: 100%; /* Ensure cards are at least as tall as the tallest card */
+    background: linear-gradient(to bottom, rgba(55,98,141,255), rgb(21, 50, 81)); /* Adjust colors as needed */
+    color: white; /* Ensure text is readable against the gradient */
+    border: none; /* Optional: Remove border if any */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+    padding: 20px; /* Optional: Add padding inside the card */
+
+}
+
+.card-title {
+    font-size: 24px; /* Adjust the size as needed */
+    font-family: 'Futura-Bold', sans-serif; /* Ensure the font family is correct */
+    font-weight: bold;
+    margin-bottom: 50px; /* Add spacing between the title and underline */
+    margin-top: 40px;
+    color: white; /* Ensure the color contrasts with the card background */
+}
+
+/* Card Title Underline */
+.card-title-underline {
+    width: 100%; /* Adjust the width of the underline */
+    height: 2px; /* Thickness of the underline */
+    background-color: white; /* Match the color of the underline */
+    margin: 0 auto 15px; /* Center the underline and add space below it */
+}
+
+
+.card-img-container {
+    position: relative;
+    display: flex;
+    padding-left: 40px;
+    margin-top: -40px; /* Adjust this to position the image correctly */
+}
+
+.card-img-top {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Keep the image a square */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    background-color: white; /* Optional: Add background if the image has transparency */
+    padding: 5px; /* Optional: Add padding around the image */
+}
+
