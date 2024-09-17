@@ -1,0 +1,223 @@
+body{
+    background-color: white;
+}
+#main-image {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    background-color: rgb(6, 9, 39);
+    position: relative; /* Ensure it is positioned normally in the flow */
+    z-index: 500; /* Lower than the navbar */
+    margin-top: 60px; /* Adjust based on the height of your navbar */
+}
+
+#Search-form {
+    position: absolute;
+    bottom: 0; /* Align the form to the bottom of the container */
+    display: flex;
+    justify-content: center; /* Center the content inside the form horizontally */
+    background-color: rgb(5, 6, 27);
+    padding: 30px; /* Optional: to add spacing inside the form */
+    width: 70%;
+}
+
+.radio-home{
+    font-size: 14px;
+    font-family: Futura-Bold, sans-serif;
+    font-weight: bold;
+    color: white;
+    vertical-align: unset;
+    line-height: 58px;
+    padding: 0 32px 0 52px;
+    border: none;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    background-position: left 1.2em top 50%;
+    background-color: rgb(2, 30, 44);
+    cursor: pointer;
+}
+
+.radio-business{
+    font-size: 14px;
+    font-family: Futura-Bold, sans-serif;
+    font-weight: bold;
+    vertical-align: unset;
+    line-height: 58px;
+    margin: 0px 0px 0px 15px;
+    padding: 0 32px 0 52px;
+    border: none;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    background-position: left 1.2em top 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.radio-check{
+    font-size: 14px;
+    font-family: Futura-Bold, sans-serif;
+    font-weight: bold;
+    color: white;
+    vertical-align: unset;
+    line-height: 58px;
+    margin: 0px 0px 0px 15px;
+    padding: 0 32px 0 52px;
+    border: none;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    /*background-position: left 1.2em top 50%;*/
+    background-color: #CC3528;
+    cursor: pointer;
+
+}
+
+.fa-solid{
+    font-weight: 900; /* For a thicker font */
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    padding-left: 2px;
+}
+
+.form-control  {
+    width: 450px; /* Adjust this value to reduce the width */
+    height: 55px; /* Adjust this value to change the height */
+    margin: 0px 0px 0px 15px;
+    padding: 0 32px 0 52px;
+    font-size: 14px;
+    border-radius: 999px; /* Optional: for rounded corners */
+    border: 1px solid #ccc;
+    margin-right: 20px; /* Adds space between the search box and radio buttons */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top */
+    background-color: white; /* Add background color if needed */
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block; /* Makes sure each link gets its own space */
+}
+
+.navbar .nav-link {
+    color: #000000 !important; /* Dark color (black) */
+    font-weight: bold !important;
+    background-color: white;
+}
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: navy;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+#Why-Us {
+    background-color: rgb(91, 185, 250);
+}
+
+.why-us-div {
+    width: 70%; /* or any width you want */
+    margin: 0 auto;
+}
+
+.why-us-div h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+    font-family: 'Futura-Bold', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Adjust text color if needed */
+}
+
+.underline {
+    width: 100%; /* Full width underline */
+    height: 1px; /* Adjust thickness */
+    background-color: white; /* Match the color of the line */
+    margin-top: 5px; /* Adjust spacing between text and line */
+    margin-bottom: 70px; /* Add padding below the underline */
+}
+
+.underline-bottom {
+    width: 70%; /* Adjust the width as needed */
+    height: 2px; /* Thickness of the underline */
+    background-color: white; /* Color of the underline */
+    margin: 30px auto 0; /* Center it and add some margin above */
+    opacity: 0.8; /* Optional: Adjust opacity for a subtle effect */
+}
+
+.card {
+    width: 100%; /* Make sure the cards use the full width of their container */
+    min-height: 100%; /* Ensure cards are at least as tall as the tallest card */
+    background: linear-gradient(to bottom, rgba(55,98,141,255), rgb(21, 50, 81)); /* Adjust colors as needed */
+    color: white; /* Ensure text is readable against the gradient */
+    border: none; /* Optional: Remove border if any */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+    padding: 20px; /* Optional: Add padding inside the card */
+
+}
+
+.card-title {
+    font-size: 24px; /* Adjust the size as needed */
+    font-family: 'Futura-Bold', sans-serif; /* Ensure the font family is correct */
+    font-weight: bold;
+    margin-bottom: 50px; /* Add spacing between the title and underline */
+    margin-top: 40px;
+    color: white; /* Ensure the color contrasts with the card background */
+}
+
+/* Card Title Underline */
+.card-title-underline {
+    width: 100%; /* Adjust the width of the underline */
+    height: 2px; /* Thickness of the underline */
+    background-color: white; /* Match the color of the underline */
+    margin: 0 auto 15px; /* Center the underline and add space below it */
+}
+
+
+.card-img-container {
+    position: relative;
+    display: flex;
+    padding-left: 40px;
+    margin-top: -40px; /* Adjust this to position the image correctly */
+}
+
+.card-img-top {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Keep the image a square */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    background-color: white; /* Optional: Add background if the image has transparency */
+    padding: 5px; /* Optional: Add padding around the image */
+}
+
+#What-We-Offer {
+    background-color: rgb(21, 50, 81);
+}
+
+.What-We-Offer-div h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+    font-family: 'Futura-Bold', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Adjust text color if needed */
+}
+
+.What-We-Offer-div {
+    width: 70%; /* or any width you want */
+    margin: 0 auto;
+}
+
