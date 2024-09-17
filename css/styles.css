@@ -150,11 +150,11 @@ body{
 }
 
 .underline-bottom {
-    width: 100%; /* Full width underline */
-    height: 1px; /* Adjust thickness */
-    background-color: black; /* Match the color of the line */
-    margin-top: 5px; /* Adjust spacing between text and line */
-    margin-bottom: 70px; /* Add padding below the underline */
+    width: 70%; /* Adjust the width as needed */
+    height: 2px; /* Thickness of the underline */
+    background-color: white; /* Color of the underline */
+    margin: 30px auto 0; /* Center it and add some margin above */
+    opacity: 0.8; /* Optional: Adjust opacity for a subtle effect */
 }
 
 .card {
