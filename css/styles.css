@@ -203,3 +203,21 @@ body{
     padding: 5px; /* Optional: Add padding around the image */
 }
 
+#What-We-Offer {
+    background-color: rgb(21, 50, 81);
+}
+
+.What-We-Offer-div h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px;
+    font-family: 'Futura-Bold', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Adjust text color if needed */
+}
+
+.What-We-Offer-div {
+    width: 70%; /* or any width you want */
+    margin: 0 auto;
+}
+
