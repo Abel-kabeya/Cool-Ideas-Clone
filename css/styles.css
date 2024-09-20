@@ -221,3 +221,9 @@ body{
     margin: 0 auto;
 }
 
+
+@media (max-width: 768px) {
+    .pt-40, .pb-40{
+        padding-bottom: 40px !important;
+    }
+}
