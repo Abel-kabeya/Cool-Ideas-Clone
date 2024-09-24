@@ -241,6 +241,46 @@ body{
     color: white;
 }
 
+.card-talk-to-us{
+    width: 100%; /* Make sure the cards use the full width of their container */
+    min-height: 100%; /* Ensure cards are at least as tall as the tallest card */
+    background: linear-gradient(to top, #46aceb, #7fc7f4); /* Gradient background */
+    color: white; /* Ensure text is readable against the gradient */
+    /*border-bottom: none; !* No border at the bottom *!*/
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Optional: Add shadow for depth */
+    padding: 20px; /* Optional: Add padding inside the card */
+}
+
+.icons , span{
+
+        margin-top: 20%;
+        margin-right: 20px; /* Adjust the value as needed */
+
+}
+
+.card-text-talk-us{
+    margin-left: 3%;
+}
+
+.card-title-talk-to-Us {
+    text-transform: uppercase; /* Makes the text uppercase */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, rgb(42, 91, 140), rgb(21, 50, 81)); /* Adjust colors as needed */
+    line-height: 58px;
+    padding: 0 32px 0 52px;
+    border: none;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    background-position: left 1.2em top 50%;
+    background-color: rgb(42, 91, 140);
+    /*cursor: pointer;*/
+}
+
 
 @media (max-width: 768px) {
     .pt-40, .pb-40{
