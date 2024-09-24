@@ -222,6 +222,25 @@ body{
     margin: 0 auto;
 }
 
+#Talk-to-Us {
+    background: rgb(70, 172, 235);
+}
+
+.Talk-to-Us-h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 0px 0px 8px 12%;
+    font-family: 'Futura-Bold', sans-serif;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Adjust text color if needed */
+}
+
+.styled-hr{
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+}
+
 
 @media (max-width: 768px) {
     .pt-40, .pb-40{
